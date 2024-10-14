@@ -109,7 +109,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin:
 }
 
 .text-box {
@@ -118,4 +117,36 @@ header {
 
 .horizontal-container p {
     margin-bottom: 32px;
+}
+
+.my-inspiration-section {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.my-inspiration-container {
+    width: 1170;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 97px;
+    background: rgba(13, 19, 33, 0.02);
+    gap: 32px;
+}
+
+.video-container {
+    width: 1100px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 24px;
+    border: 1px solid rgba(13, 19, 33, 0.20);
+}
+
+iframe {
+    width: 1076px;
+    border-radius: 48px;
+    padding: 30px;
 }
