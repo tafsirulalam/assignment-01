@@ -201,6 +201,9 @@ iframe {
     background: rgba(255, 223, 0, 0.05);
 }
 
+.learn-more {
+    color: black;
+}
 
 .skill-title-box {
     padding: 0 48px;
@@ -216,7 +219,7 @@ iframe {
     margin-bottom: 80px;
     flex-direction: column;
     border-radius: 16px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url(/assets/handshake.jpg) lightgray 50% / cover no-repeat;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url("../assets/handshake.jpg") lightgray 50% / cover no-repeat;
     background-size: cover;
 }
 
@@ -260,10 +263,14 @@ iframe {
 
 .btn-submit {
     width: 120px;
-    padding: 20px 20px;
+    padding: 16px 20px;
     border-radius: 8px;
     background: #FFF;
     border: none;
+    color: #0D1321;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 footer {
